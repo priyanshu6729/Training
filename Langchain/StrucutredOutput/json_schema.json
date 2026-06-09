@@ -1,0 +1,10 @@
+{
+  "title": "Example",
+  "description": "An example JSON schema for a review analysis output.",
+  "type": "object",
+  "properties": {
+    "name": "string",
+    "age": "integer"
+  },
+  "required": ["name"]
+}

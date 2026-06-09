@@ -1,0 +1,113 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.local
+.env.*
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Build / Distribution
+# ==========================
+build/
+dist/
+*.egg-info/
+
+# ==========================
+# Jupyter Notebooks
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Pytest
+# ==========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================
+# Hugging Face Cache
+# ==========================
+.cache/
+huggingface/
+hf_cache/
+
+# ==========================
+# ChromaDB
+# ==========================
+chroma_db/
+chroma/
+*.sqlite3
+
+# ==========================
+# Vector Stores
+# ==========================
+vectorstore/
+faiss_index/
+*.faiss
+*.pkl
+
+# ==========================
+# LangSmith / LangChain
+# ==========================
+.langsmith/
+
+# ==========================
+# Uploaded Files
+# ==========================
+uploads/
+data/
+temp/
+tmp/
+
+# ==========================
+# FastAPI
+# ==========================
+*.db
+*.sqlite
+
+# ==========================
+# Secrets
+# ==========================
+secrets.json
+credentials.json
+service-account.json
+
+# ==========================
+# Node (if frontend exists)
+# ==========================
+node_modules/
+.next/
+out/
